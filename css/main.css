@@ -1,10 +1,85 @@
 /*Root*/
+body{
+    margin: 0;
+}
 .work-sans-font {
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
-
+.display-flex{
+    display: flex;
+}
 /*Head*/
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/*Nav*/
+.brand{
+    color: black;
+    font-weight: bold;
+    font-family: 3rem;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-manu{
+    list-style: none;
+}
+.nav-item{
+    margin-left: 30px;
+}
+.nav-item a{
+    text-decoration: none;
+    color: #727272;
+    font-size: 18px;
+    font-weight:500;
+}
+.navbar, .banner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/*Banner*/
+.banner{
+    align-items: center;
+    margin: 0 auto;
+}
+.banner-content{
+    max-width: 840px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.banner-desc{
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(114, 114, 114, 1);
+}
+.banner-img{
+    width: 100%;
+    height: auto;
+}
+.banner-btn{
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 25px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px ;
+}
+
 /*Main*/
 /*Footer*/
+
+/*Responsive*/
+@media screen and (max-width: 576px) {
+    .navbar, .nav-manu{
+        flex-direction: column;
+    }
+}
