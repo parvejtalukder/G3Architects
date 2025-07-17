@@ -151,15 +151,15 @@ header{
     }
 
     .banner-content {
-        max-width: 680px;
+        max-width: 620px;
         margin-bottom: 30px;
     }
 
     .banner-title {
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
     .banner-img {
-        width: 650px;
+        width: 620px;
     }
 
     .banner-btn {
@@ -167,4 +167,38 @@ header{
         font-size: 17px;
     }
 } 
+@media screen and (max-width: 992px) and (min-width: 769px) {
+
+    /*Nav*/
+    .brand {
+        font-family: 3rem;
+    }
+
+    .navbar {
+        justify-content: space-around;
+    }
+
+    /*Banner*/
+    .banner {
+        margin-bottom: 30px;
+    }
+
+    .banner-content {
+        max-width: 700px;
+        margin-bottom: 30px;
+    }
+
+    .banner-title {
+        font-size: 3rem;
+    }
+
+    .banner-img {
+        width: 720px;
+    }
+
+    .banner-btn {
+        padding: 13px 20px;
+        font-size: 17px;
+    }
+}
     
