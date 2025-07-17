@@ -13,6 +13,8 @@ body{
 /*Head*/
 header{
     background-color: rgba(255, 144, 14, 0.1);
+    padding-bottom: 15px;
+    width: 100%;
 }
 /*Nav*/
 .brand{
@@ -44,16 +46,19 @@ header{
 .banner{
     align-items: center;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 .banner-content{
-    max-width: 840px;
+    max-width: 750px;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 .banner-title{
     font-size: 4rem;
     font-weight: bold;
+    line-height: 1;
+    margin-bottom: -10px;
 }
 .banner-desc{
     font-size: 16px;
@@ -62,7 +67,7 @@ header{
 }
 .banner-img{
     display: block;
-    width: 100%;
+    width: 850px;
     height: auto;
     margin: 0 auto;
     border-radius: 8px;
@@ -82,6 +87,10 @@ header{
 
 /*Responsive*/
 @media screen and (max-width: 576px) {
+    header{
+        padding-bottom: 15px;
+        width: 100%;
+    }
     .brand{
         font-size: 1.4rem;
     }
@@ -121,9 +130,41 @@ header{
         font-size: 16px;
     }
     .banner-img{
+        width: 400px;
         display: block;
-        max-width: 400px;
+        max-width: 500px;
         margin: 0 auto;
         border-radius: 8px;
     }
 }
+@media screen and (max-width: 768px) and (min-width: 577px) {
+/*Nav*/
+    .brand {
+        font-family: 3rem;
+    }
+    .navbar {
+        justify-content: space-around;
+    }
+    /*Banner*/
+    .banner {
+        margin-bottom: 30px;
+    }
+
+    .banner-content {
+        max-width: 680px;
+        margin-bottom: 30px;
+    }
+
+    .banner-title {
+        font-size: 3rem;
+    }
+    .banner-img {
+        width: 650px;
+    }
+
+    .banner-btn {
+        padding: 13px 20px;
+        font-size: 17px;
+    }
+} 
+    
