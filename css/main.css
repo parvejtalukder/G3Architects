@@ -216,7 +216,7 @@ header{
         font-size: 2.8rem;
     }
     .banner-img {
-        display: none;
+        width: 280px;
     }
 
     .banner-btn {
