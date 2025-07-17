@@ -86,6 +86,68 @@ header{
 /*Footer*/
 
 /*Responsive*/
+@media screen and (max-width: 575px) and (min-width: 400px) {
+    header {
+        padding-bottom: 15px;
+        width: 100%;
+    }
+
+    .brand {
+        font-size: 1.4rem;
+    }
+
+    .navbar,
+    .nav-manu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-manu {
+        margin-top: -10px;
+        flex-direction: row;
+        gap: 60px;
+    }
+
+    .nav-item {
+        margin-left: -30px;
+    }
+
+    .banner {
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .banner-content {
+        max-width: 370px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+        line-height: 1;
+        margin-bottom: 0;
+    }
+
+    .banner-desc {
+        margin-bottom: 20px;
+    }
+
+    .banner-btn {
+        padding: 12px 18px;
+        font-size: 16px;
+    }
+
+    .banner-img {
+        width: 370px;
+        display: block;
+        max-width: 500px;
+        margin: 0 auto;
+        border-radius: 8px;
+    }
+}
 @media screen and (max-width: 576px) {
     header{
         padding-bottom: 15px;
