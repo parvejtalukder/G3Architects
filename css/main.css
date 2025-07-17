@@ -141,7 +141,7 @@ header{
     }
 
     .banner-img {
-        width: 2800px;
+        width: 280px;
         display: block;
         margin: 0 auto;
         border-radius: 8px;
@@ -191,10 +191,7 @@ header{
         font-size: 16px;
     }
     .banner-img{
-        width: 380px;
-        display: block;
-        margin: 0 auto;
-        border-radius: 8px;
+        display: none;
     }
 }
 @media screen and (max-width: 768px) and (min-width: 577px) {
@@ -219,7 +216,7 @@ header{
         font-size: 2.8rem;
     }
     .banner-img {
-        width: 620px;
+        display: none;
     }
 
     .banner-btn {
