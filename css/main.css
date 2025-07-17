@@ -61,8 +61,11 @@ header{
     color: rgba(114, 114, 114, 1);
 }
 .banner-img{
+    display: block;
     width: 100%;
     height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
 }
 .banner-btn{
     background-color: #FF900E;
@@ -94,5 +97,33 @@ header{
     }
     .nav-item {
         margin-left:-30px;
+    }
+    .banner{
+        align-items: center;
+        margin: 0 auto;
+    }
+    .banner-content {
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .banner-title{
+        font-size: 2rem;
+        line-height: 1;
+        margin-bottom: 0;
+    }
+    .banner-desc{
+        margin-bottom:20px;
+    }
+    .banner-btn{
+        padding: 12px 18px;
+        font-size: 16px;
+    }
+    .banner-img{
+        display: block;
+        max-width: 400px;
+        margin: 0 auto;
+        border-radius: 8px;
     }
 }
